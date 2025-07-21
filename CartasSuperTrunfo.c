@@ -7,8 +7,10 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-int main() {
-   // Carta 1
+int main()
+{
+
+    // Carta 1
     int populacao1, pontosTuristicos1;
     float area1, pib1;
     char estado1;
@@ -103,6 +105,8 @@ int main() {
     printf("Area: %.2f km2\n", area1);
     printf("PIB: %.1f Bilhoes de reais\n", pib1);
     printf("Numero de pontos turisticos: %d\n", pontosTuristicos1);
+    printf("Densidade populacional: %.2f\n", populacao1 / area1);
+    printf("PIB per Capita : %.2f\n", populacao1 / pib1);
 
     printf("\n////////////////\n");
 
@@ -114,8 +118,10 @@ int main() {
     printf("Area: %.2f km2\n", area2);
     printf("PIB: %.1f Bilhoes de reais\n", pib2);
     printf("Numero de pontos turisticos: %d\n", pontosTuristicos2);
+    printf("Densidade populacional: %.2f\n", populacao2 / area2);
+    printf("PIB per Capita : %.2f\n", populacao2 / pib2);
 
     printf("\n\n");
 
     return 0;
-}
+};
